@@ -1,5 +1,5 @@
 ﻿/* ----------------------------------------------------------------------------
-Origami Serial Library
+Origami ENAML Library
 Copyright (C) 2005-2019  George E Greaney
 
 This program is free software; you can redistribute it and/or
@@ -17,7 +17,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 ----------------------------------------------------------------------------*/
 
-//simple YAML-like syntax
+//ENAML - (just what) Everybody Needs - Another Markup Language 
 
 using System;
 using System.Collections.Generic;
@@ -25,9 +25,9 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace Origami.Serial
+namespace Origami.ENAML
 {
-    public class SerialData
+    public class EnamlData
     {
         String filename;
         SettingsStem root;
