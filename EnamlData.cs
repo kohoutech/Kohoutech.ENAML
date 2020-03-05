@@ -1,6 +1,6 @@
 ﻿/* ----------------------------------------------------------------------------
 Origami ENAML Library
-Copyright (C) 2019  George E Greaney
+Copyright (C) 2019-2020  George E Greaney
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -259,6 +259,16 @@ namespace Origami.ENAML
                 root = new SettingsStem();
             }
             setLeafValue(path, root, intstr);
+        }
+
+        public void setFloatValue(String path, double val)
+        {
+            String floatstr = val.ToString("G17");
+            if (root == null)
+            {
+                root = new SettingsStem();
+            }
+            setLeafValue(path, root, floatstr);
         }
 
         //- storing out ------------------------------------------------
