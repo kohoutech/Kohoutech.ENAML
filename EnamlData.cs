@@ -113,7 +113,7 @@ namespace Origami.ENAML
                     if (colonpos + 1 != line.Length)                            //nnn : xxx
                     {
                         String val = line.Substring(colonpos + 1).Trim();
-                        curStem.children.Add(name, new ENAMLLeaf(val, subpath));
+                        curStem.children.Add(name, new ENAMLLeaf(subpath, val));
                     }
                     else
                     {
