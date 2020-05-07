@@ -1,5 +1,5 @@
 ﻿/* ----------------------------------------------------------------------------
-Origami ENAML Library
+Kohoutech ENAML Library
 Copyright (C) 2019-2020  George E Greaney
 
 This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace Origami.ENAML
+namespace Kohoutech.ENAML
 {
     public class EnamlData
     {
